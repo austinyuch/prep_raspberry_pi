@@ -1,5 +1,6 @@
-#!/bin/bssh
-# https://community.home-assistant.io/t/install-supervised-supervisor-on-raspberry-pi4-with-docker-installation/291186/4
+#!/bin/bash
+# https://community.home-assistant.io/t/install-supervised-supervisor-on-raspberry-pi4-with-docker-installation/291186/27
+
 # HA supervised installer
 # https://github.com/home-assistant/supervised-installer
 # HA os-agent https://github.com/home-assistant/os-agent/tree/main#using-home-assistant-supervised-on-debian
