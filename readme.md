@@ -144,3 +144,8 @@ sudo reboot now
 ```
 
 開機後等一陣子就可以進入HA起始畫面了
+
+
+# Restore REf.
+- [How to restore a backup](https://community.home-assistant.io/t/how-to-restore-a-backup/227688)
+- [Restore backup](https://community.home-assistant.io/t/restore-backup/401225)
