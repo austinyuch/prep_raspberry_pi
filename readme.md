@@ -26,7 +26,7 @@ wifi.scan-rand-mac-address=no
 
 ```
 
-sudo apt-get install jq wget curl avahi-daemon udisks2 libglib2.0-bin network-manager dbus apparmor  -y
+sudo apt-get install jq wget curl avahi-daemon udisks2 libglib2.0-bin network-manager dbus apparmor apparmor-utils python3-apparmor  -y
 
 # apparmor-utils最後裝
 
@@ -108,7 +108,7 @@ sudo apt autoremove
 In this case, the installation will end without error.
 Now we need to activate AppArmor:
 ```
-sudo apt install apparmor-utils
+sudo apt install apparmor-utils python3-apparmor 
 ```
 
 Fix
@@ -123,6 +123,7 @@ sudo reboot now
 
 ### Check AppArmor
 
+下面這個沒有很像也還是可以運作
 ```
 aa-status
 ```
@@ -133,6 +134,8 @@ Need to print a result like: apparmor module is loaded.
 aa-enable
 ```
 Need to print a result like: Yes
+
+
 
 
 重開機
